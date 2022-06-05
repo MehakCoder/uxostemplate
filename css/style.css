@@ -34,3 +34,48 @@ header-container{
     position: relative;
     padding-bottom: 10px;
 }
+.heading_container h2::before {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #8547ca;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 0;
+  }
+  
+  .hero_next_section-margin {
+    margin-top: 100px;
+  }
+
+  /* header section */
+
+  /* header section : the end */
+/* ................................................................................................................... */
+/* feature section */
+.Features{
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    padding: 45px 0;
+    margin: 30px 0;
+}
+.header-container h2{
+    font-weight: bold;
+    color: #1d1e31;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+.header-container h2::before{
+    content: "";
+    width: 100px;
+    height: 1px; 
+    background-color: #8547ca;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+/* feature section */
