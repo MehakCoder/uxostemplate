@@ -160,4 +160,22 @@ header-container{
 .layout-padding2-top{
 padding-top: 45px;
 }
+.download-section .box{
+    background-color: #333456;
+    padding: 15px;
+    margin: 45px 0;
+    color: #fefdfc;
+}
+.box .head-box .img-box{
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fefdfc;
+    justify-content: center;
+    align-items: center;
+}
+.img-box .img{
+    width: 30px;
+}
+
 /* Download : the end */
