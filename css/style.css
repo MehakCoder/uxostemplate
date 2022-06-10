@@ -166,15 +166,16 @@ padding-top: 45px;
     margin: 45px 0;
     color: #fefdfc;
 }
-.box .head-box .img-box{
+.download-section .box .head-box .image-box{
     margin-right: 15px;
     width: 60px;
     height: 60px;
     border: 1px solid #fefdfc;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.img-box .img{
+.image-box .img{
     width: 30px;
 }
 
