@@ -178,5 +178,16 @@ padding-top: 45px;
 .image-box .img{
     width: 30px;
 }
+.head-box .box .head-box h6{
+    font-weight: bold;
+    font-size: 18px;
+}
+.box .detail-box{
+    margin-top: 15px;
+}
+.download-section .box  .detail-box p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* Download : the end */
