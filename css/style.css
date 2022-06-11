@@ -133,40 +133,23 @@ header-container{
   }
 /* feature section */
 /* Download */
-.download-section {
+.download_section {
     font-family: 'Poppins', sans-serif;
-}
-.layout-padding-bottom {
-    padding-bottom: 90px;
-}
-.heading-container h2{
-    font-weight: bold;
-    color: #1d1e31;
-    text-align: center;
-    position: relative;
-    padding-bottom: 35px;
-}
-.heading-container h2::before{
-    content: "";
-    width: 100px;
-    height: 1px; 
-    background-color: #8547ca;
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
-    bottom: 0;
-    margin-bottom: 25px;
-}
-.layout-padding2-top{
-padding-top: 45px;
-}
-.download-section .box{
+  }
+  
+  .download_section .box {
     background-color: #333456;
     padding: 15px;
     margin: 45px 0;
     color: #fefdfc;
-}
-.download-section .box .head-box .image-box{
+  }
+  
+  .download_section .box .head-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .download_section .box .head-box .img-box {
     margin-right: 15px;
     width: 60px;
     height: 60px;
@@ -174,20 +157,64 @@ padding-top: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.image-box .img{
+  }
+  
+  .download_section .box .head-box .img-box img {
     width: 30px;
-}
-.head-box .box .head-box h6{
+  }
+  
+  .download_section .box .head-box h6 {
     font-weight: bold;
     font-size: 18px;
-}
-.box .detail-box{
+  }
+  
+  .download_section .box .detail-box {
     margin-top: 15px;
-}
-.download-section .box  .detail-box p{
+  }
+  
+  .download_section .box .detail-box p {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-}
+  }
+  
+  .download_section .btn-1 {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #8c60bd;
+    color: #fefdfc;
+    border-radius: 0;
+    border: 1px solid #8c60bd;
+    margin-top: 25px;
+  }
+  
+  .download_section .btn-1:hover {
+    background-color: transparent;
+    color: #8c60bd;
+  }
+  
+  .download_section .btn-2 {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #323559;
+    color: #fefdfc;
+    border-radius: 0;
+    border: 1px solid #323559;
+    margin-top: 25px;
+  }
+  
+  .download_section .btn-2:hover {
+    background-color: transparent;
+    color: #323559;
+  }
+  
+  .download_section .main-img-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .download_section .main-img-box img {
+    width: 75%;
+  }
+  
 
 /* Download : the end */
