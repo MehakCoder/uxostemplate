@@ -3,25 +3,25 @@ body {
     color: #0c0c0c;
     background-color: #ffffff;
 }
-layout-margin {
+.layout-margin {
     margin: 90px 0;
 }
-layout-padding {
+.layout-padding {
     padding: 90px 0;
 }
-layout_padding2 {
+.layout-padding2 {
     padding: 45px 0;
 }
-.layout_padding2-top {
+.layout-padding2-top {
     padding-top: 45px;
 }
-.layout_padding2-bottom {
+.layout-padding2-bottom {
     padding-bottom: 45px;
 }
-.layout_padding-top {
+.layout-padding-top {
     padding-top: 90px;
 }
-.layout_padding-bottom {
+.layout-padding-bottom {
     padding-bottom: 90px;
 }
 .container{
@@ -137,8 +137,6 @@ header-container{
     padding-bottom: 90px;
     padding-top: 45px;
 }
-  
-  
   .download_section .box {
     background-color: #333456;
     padding: 15px;
@@ -218,7 +216,43 @@ header-container{
   
   .download_section .main-img-box img {
     width: 75%;
+    filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.37));
   }
-  
-
 /* Download : the end */
+/* About us  */
+.about-section{
+  background-image: url(../image/about-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.about-section .detail-box{
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.about-section .row {
+  justify-content: space-between;
+}
+.about-section .detail-box p{
+  font-size: 14px;
+}
+.about-section .detail-box.b-1 {
+  justify-content: flex-end;
+}
+.about-section .detail-box.b-1 a{
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #8c60bd;
+  color: #fefdfc;
+  border-radius: 0;
+  border: 1px solid #8c60bd;
+  text-decoration: none;
+}
+.about-section .detail-box.b-1 a:hover{
+  background-color: transparent;
+    color: #8c60bd;
+}
+
+/* About us : the end */
