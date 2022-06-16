@@ -321,3 +321,143 @@ header-container{
   color: #8c60bd;
 }
 /* client section : the end  */
+/* contact section */
+.contact-section{
+  background-color: #f2f7fd;
+}
+.contact-section h2{
+  font-size: 26px;
+  color: #010103;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 35px;
+}
+.contact-section input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  margin: 15px 0;
+  background-color: transparent;
+  font-size: smaller;
+}
+.contact-section button{
+  border: none;
+  background-color:#8c60bd;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 15px 45px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.contact-img-box{
+  display: flex;
+  width: 100%;
+}
+/* contact section : the end */
+/* info and footer */
+.info-section {
+  background-color: #363636;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.info-section h5 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+.info-section p {
+  font-size: 16px;
+}
+
+.info-logo-box {
+  display: flex;
+  justify-content: center;
+}
+
+.info-logo-box h2 {
+  font-weight: bold;
+  padding: 5px 35px;
+  border-bottom: 1.5px solid #8547ca;
+}
+
+.info-section ul {
+  padding: 0;
+ 
+}
+
+.info-section ul li {
+  list-style-type: none;
+  margin: 3px 0;
+}
+
+.info-section ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.info-section ul li a:hover {
+  color: #8547ca;
+}
+
+.info-section .form-container input {
+  width: 225px;
+  height: 40px;
+  padding: 10px;
+}
+
+.info_section .form-container::placeholder {
+  color: #ccc8c8;
+}
+
+.info-section .form-container button {
+  background-color: #8c60bd;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px 30px;
+  margin-top: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.social-container {
+  width: 95%;
+  margin: 0 auto;
+  border-top: 1px solid #898989;
+  padding: 25px 0;
+}
+
+.info-section .social-box {
+  margin: 0 auto;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+
+.info-section .social-box img {
+  width: 35px;
+  margin-right: 5px;
+}
+
+/* end info section */
+/* footer section*/
+.footer-section {
+  background-color: #8547ca;
+  padding: 20px;
+}
+
+.footer-section p {
+  margin: 0;
+  text-align: center;
+  color: #fefdfc;
+}
+
+.footer-section a {
+  color: #fefdfc;
+}
+
+/* the end */
