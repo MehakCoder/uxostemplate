@@ -52,8 +52,18 @@ header-container{
 
   /* header section */
 
+
   /* header section : the end */
 /* ................................................................................................................... */
+/* slider section */
+     .slider-section{
+      display: flex;
+      align-items: center;
+      height: calc(100%-75px);
+      padding: 50px;
+     }
+     
+/* slider section : the end */
 /* feature section */
 .Features{
     background-color: #fafafa;
