@@ -51,7 +51,71 @@ header-container{
   }
 
   /* header section */
-
+  .hero-area{
+    position: relative;
+    background: linear-gradient(to right, #f2f7fd 50%, #1d1e31 45%);
+  }
+  .navbar-brand{
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand span{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    color: #8547ca;
+    margin-top: 5px;
+  }
+  .custom_nav-container {
+    z-index: 99999;
+    padding: 15px 0;
+}
+.custom_menu-btn{
+  z-index: 9;
+  position: absolute;
+  right: 15px;
+  top: 14px;
+}
+.custom_menu-btn button {
+  margin-top: 12px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.custom_menu-btn span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 7px 0;
+  transition: all .3s;
+}
+.overlay{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay a {
+  padding: 0px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+.overlay-content{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
 
   /* header section : the end */
 /* ................................................................................................................... */
