@@ -205,6 +205,27 @@ header-container{
     color: #8c60bd;
   }
 /* feature section */
+.slider-section .detail-box h2{
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 40px;
+}
+.slider-section .detail-box h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #8547ca;
+  font-size: 86px;
+}
+.slider-section .detail-box a {
+  display: inline-block;
+  padding: 10px 60px;
+  background-color: #1d1e31;
+  color: #fefdfc;
+  border: 1px solid #1d1e31;
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+
 /* Download */
 .download_section {
     font-family: 'Poppins', sans-serif;
