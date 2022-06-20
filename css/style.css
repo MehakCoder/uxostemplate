@@ -41,8 +41,7 @@ header-container{
     background-color: #8547ca;
     position: absolute;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+   transform: translateX(-50%);
     bottom: 0;
   }
   
@@ -52,9 +51,20 @@ header-container{
 
   /* header section */
   .hero-area{
+    height: 100vh;
     position: relative;
     background: linear-gradient(to right, #f2f7fd 50%, #1d1e31 45%);
   }
+  .custom-nav-container .navbar-expand-lg .navbar-nav .nav-link img{
+    width: 22px;
+    margin-right: 15px 0;
+  }
+  .custom-nav-container .navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0px 25px;
+    color: #fefeff;
+    text-align: center;
+  }
+  
   .navbar-brand{
     display: flex;
     align-items: center;
@@ -66,29 +76,48 @@ header-container{
     color: #8547ca;
     margin-top: 5px;
   }
-  .custom_nav-container {
+  .custom-nav-container {
     z-index: 99999;
     padding: 15px 0;
 }
-.custom_menu-btn{
+.custom-menu-btn{
   z-index: 9;
   position: absolute;
   right: 15px;
   top: 14px;
 }
-.custom_menu-btn button {
+.custom-menu-btn button {
   margin-top: 12px;
   outline: none;
   border: none;
   background-color: transparent;
 }
-.custom_menu-btn span {
+.custom-menu-btn span {
   display: block;
   width: 35px;
   height: 5px;
   background-color: #fff;
   margin: 7px 0;
   transition: all .3s;
+}
+.custom-menu-btn .s-2{
+  transition: all .1s;
+}
+.menu-btn-style button{
+  position: fixed;
+  right: 29px;
+  top: 14px;
+}
+.menu_btn-style button .s-1 {
+  transform: rotate(45deg) translateY(17px);
+}
+
+.menu_btn-style button .s-2 {
+transform: translateX(100px);
+}
+
+.menu_btn-style button .s-3 {
+ transform: rotate(-45deg) translateY(-17px);
 }
 .overlay{
   height: 100%;
@@ -100,6 +129,12 @@ header-container{
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 60px;
 }
 .overlay a {
   padding: 0px;
@@ -115,6 +150,26 @@ header-container{
   width: 100%;
   text-align: center;
   margin-top: 30px;
+}
+.menu_width {
+  width: 100%;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
   /* header section : the end */
