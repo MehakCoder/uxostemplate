@@ -288,7 +288,7 @@ header-container{
     .slider-section .carousel-control-next{
       width: 60px;
       height: 60px;
-      border-radius: 10%;
+      border-radius: 100%;
       left: 50%;
       opacity: 1;
       transform: translateX(-50%);
@@ -297,7 +297,11 @@ header-container{
     .slider-section .carousel-control-prev{
       background-color: #1d1e31;
       top: 80px;
-      background-image: url();
+      background-image: url(../image/left-arrow.png);
+      background-position: 14px center;
+    }
+    .slider-section .carousel-control-next{
+      
     }
 
 /* slider section : the end */
