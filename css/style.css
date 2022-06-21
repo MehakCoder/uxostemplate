@@ -26,7 +26,11 @@ body {
 }
 .container{
     border: 1px solid black;
+}.slider-section .row{
+  align-items: center;
+  position: unset;
 }
+/* header conatiner : start */
 header-container{
     font-weight: bold;
     color: #1d1e31;
@@ -250,6 +254,9 @@ header-container{
       height: calc(100% - 75px);
       padding: 50px;
      }
+     .slider-section .carousel{
+      position: unset;
+     }
      .slider-section .detail-box h2{
       text-transform: uppercase;
       font-weight: normal;
@@ -274,6 +281,25 @@ header-container{
       background-color: #f2f7fd;
       color: #1d1e31;
     }
+    .slider-section .img-box img{
+      height: 100%;
+    }
+    .slider-section .carousel-control-prev,
+    .slider-section .carousel-control-next{
+      width: 60px;
+      height: 60px;
+      border-radius: 10%;
+      left: 50%;
+      opacity: 1;
+      transform: translateX(-50%);
+      background-repeat: no-repeat;
+    }
+    .slider-section .carousel-control-prev{
+      background-color: #1d1e31;
+      top: 80px;
+      background-image: url();
+    }
+
 /* slider section : the end */
 /* feature section */
 .Features{
