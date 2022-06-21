@@ -799,5 +799,13 @@ header-container{
     line-height: 45px;
     margin-top: 25px;
 }
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
 }
 
