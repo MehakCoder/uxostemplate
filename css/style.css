@@ -117,18 +117,15 @@ header-container{
   }
   
   .menu_btn-style button .s-1 {
-    -webkit-transform: rotate(45deg) translateY(17px);
-            transform: rotate(45deg) translateY(17px);
+   transform: rotate(45deg) translateY(17px);
   }
   
   .menu_btn-style button .s-2 {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
+     transform: translateX(100px);
   }
   
   .menu_btn-style button .s-3 {
-    -webkit-transform: rotate(-45deg) translateY(-17px);
-            transform: rotate(-45deg) translateY(-17px);
+    transform: rotate(-45deg) translateY(-17px);
   }
   
   .overlay {
