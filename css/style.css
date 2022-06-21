@@ -254,9 +254,6 @@ header-container{
       height: calc(100% - 75px);
       padding: 50px;
      }
-     .slider-section .carousel{
-      position: unset;
-     }
      .slider-section .detail-box h2{
       text-transform: uppercase;
       font-weight: normal;
@@ -284,25 +281,7 @@ header-container{
     .slider-section .img-box img{
       height: 100%;
     }
-    .slider-section .carousel-control-prev,
-    .slider-section .carousel-control-next{
-      width: 60px;
-      height: 60px;
-      border-radius: 100%;
-      left: 50%;
-      opacity: 1;
-      transform: translateX(-50%);
-      background-repeat: no-repeat;
-    }
-    .slider-section .carousel-control-prev{
-      background-color: #1d1e31;
-      top: 80px;
-      background-image: url(../image/left-arrow.png);
-      background-position: 14px center;
-    }
-    .slider-section .carousel-control-next{
-      
-    }
+  
 
 /* slider section : the end */
 /* feature section */

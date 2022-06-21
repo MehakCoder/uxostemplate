@@ -69,37 +69,17 @@
                         </div>
                     </div>
                     <div class="col-md-5">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="img-box">
-                                        <img src="image/slider-img.png" alt="" />
-                                    </div>
+                            <div class="logo-carousel-inner owl-carousel owl-theme">
+                                <div class="single-logo-item">
+                                    <img src="image/slider-img.png">
                                 </div>
-                                <div class="carousel-item">
-                                    <div class="img-box">
-                                        <img src="image/slider-img.png" alt="" />
-                                    </div>
+                                <div class="single-logo-item">
+                                    <img src="image/slider-img.png">
                                 </div>
-                                <div class="carousel-item">
-                                    <div class="img-box">
-                                        <img src="image/slider-img.png" alt="" />
-                                    </div>
+                                <div class="single-logo-item">
+                                    <img src="image/slider-img.png">
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                data-slide="prev">
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                data-slide="next">
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -505,6 +485,27 @@
           document.getElementById('myNav').classList.toggle('menu_width');
           document.querySelector('.custom_menu-btn').classList.toggle('menu_btn-style');
         }
+        $('.logo-carousel-inner').owlCarousel({
+            items: 2,
+            loop: true,
+            autoplay: true,
+            margin: 30,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 1,
+                    nav: false,
+                    loop: true
+                }
+            }
+        })
       </script>
 </body>
 
