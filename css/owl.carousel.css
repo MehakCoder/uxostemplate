@@ -61,14 +61,31 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none; }
-  .owl-carousel .owl-nav button.owl-prev,
+  /* .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next,
   .owl-carousel button.owl-dot {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0 !important;
-    font: inherit; }
+    width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  left: 50%;
+  opacity: 1;
+          transform: translateX(-50%);
+  background-repeat: no-repeat;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+      background-color: #1d1e31;
+     bottom: 80px;
+
+      font-size: 25px;
+      background-position: 14px center; 
+    } */
+    .owl-carousel .owl-nav button.owl-next{
+      background-color: #f2f7fd;
+      top: initial;
+      bottom: 150px;
+      background-position: 35px center;
+    }
+
   .owl-carousel.owl-loaded {
     display: block; }
   .owl-carousel.owl-loading {
