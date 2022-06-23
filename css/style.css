@@ -24,9 +24,7 @@ body {
 .layout-padding-bottom {
     padding-bottom: 90px;
 }
-.container{
-    border: 1px solid black;
-}.slider-section .row{
+.slider-section .row{
   align-items: center;
   position: unset;
 }
@@ -254,16 +252,22 @@ header-container{
       height: calc(100% - 75px);
       padding: 50px;
      }
+     .slider-section .detail-box{
+      margin-left: 25px;
+     }
      .slider-section .detail-box h2{
       text-transform: uppercase;
       font-weight: normal;
-      font-size: 40px;
+      font-size: 35px;
     }
     .slider-section .detail-box h1{
       text-transform: uppercase;
       font-weight: bold;
       color: #8547ca;
-      font-size: 86px;
+      font-size: 82px;
+    }
+    .single-logo-item img{
+      height: 50%;
     }
     .slider-section .detail-box a {
       display: inline-block;
@@ -662,8 +666,6 @@ header-container{
 .info-section .social-box {
   margin: 0 auto;
   width: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
 }
